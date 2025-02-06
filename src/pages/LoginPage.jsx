@@ -3,7 +3,7 @@ import React from "react";
 const LoginPage = () => {
     return (
         <form>
-            <h1>Register with us!</h1>
+            <h1>Welcome back!</h1>
 
             <div class="field">
                 <label class="label">Email <span class="has-text-danger">*</span></label>
