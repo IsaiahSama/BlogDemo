@@ -2,9 +2,13 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div>
-            <h1>Footer</h1>
-        </div>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>CSS Blog</strong>
+                </p>
+            </div>
+        </footer>
     );
 }
 
