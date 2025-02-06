@@ -14,7 +14,7 @@ const PostSnippet = () => {
                     </div>
                 </div>
 
-                <div class="content">
+                <div class="content snippet">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe aliquam in inventore impedit, fugit non quas architecto iusto. Fugit corrupti temporibus provident itaque ullam quaerat, obcaecati consectetur odio laborum nostrum!
                 </div>
             </div>

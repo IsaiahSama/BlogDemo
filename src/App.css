@@ -15,3 +15,9 @@ footer{
     max-height: 100px;
     overflow: hidden;
 }
+
+.snippet{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
