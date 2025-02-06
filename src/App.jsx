@@ -21,6 +21,7 @@ function App() {
 	return (
 		<Router>
 			<Header />
+			<section className="section content">
 				<Routes>
 					<Route path="/" element={<HomePage />} />
 					<Route path="/post/create" element={<NewPostPage />} />
@@ -29,6 +30,7 @@ function App() {
 					<Route path="/login" element={<LoginPage />} />
 					<Route path="/profile" element={<ProfilePage />} />
 				</Routes>
+			</section>
 			<Footer />
 		</Router>
 	);
