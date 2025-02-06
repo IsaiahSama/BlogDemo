@@ -6,7 +6,10 @@ const PostPage = ( {posts} ) => {
     const { id } = useParams();
     const post = posts.find(post => post.id === parseInt(id));
 
-    console.log(post);
+    if (!post) {
+        return <p>Post not found</p>;
+    }
+    
     return (
         <>
             <h1 className="title">{post.title}</h1>
