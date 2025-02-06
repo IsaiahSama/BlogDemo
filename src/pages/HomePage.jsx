@@ -1,7 +1,7 @@
 import React from "react";
 import PostSnippet from "../components/PostSnippet";
 
-const HomePage = () => {
+const HomePage = ({posts}) => {
     return (
         <>
             <div className="is-flex is-justify-content-space-between">

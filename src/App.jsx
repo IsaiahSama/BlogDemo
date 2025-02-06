@@ -27,9 +27,9 @@ function App() {
 			<Header />
 			<section className="section content">
 				<Routes>
-					<Route path="/" element={<HomePage />} />
+					<Route path="/" element={<HomePage posts={posts} />} />
 					<Route path="/post/create" element={<NewPostPage />} />
-					<Route path="/post" element={<PostPage />} />
+					<Route path="/post/:id" element={<PostPage posts={posts} />} />
 					<Route path="/register" element={<RegisterPage />} />
 					<Route path="/login" element={<LoginPage />} />
 					<Route path="/profile" element={<ProfilePage />} />

@@ -1,6 +1,6 @@
 import React from "react";
 
-const PostPage = () => {
+const PostPage = ( {posts} ) => {
     return (
         <>
             <h1 class="title">Why CSS Is Awesome</h1>
