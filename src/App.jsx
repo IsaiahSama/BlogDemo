@@ -10,6 +10,8 @@ import ProfilePage from "./pages/ProfilePage"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
+import Posts from "./posts.json"
+
 import {
 	BrowserRouter as Router,
 	Routes,
@@ -17,6 +19,8 @@ import {
 } from "react-router-dom"
 
 function App() {
+
+	const posts = Posts
 
 	return (
 		<Router>

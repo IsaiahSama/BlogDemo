@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Hello World",
+        "content": "This is a test post to get started with the blog. It is a simple post that will be displayed in the list of posts.",
+        "author": "John Doe",
+        "date": "2021-01-01"
+    },
+    {
+        "id": 2,
+        "title": "Computer Science Society",
+        "content": "The computer Science society is a group of students who are interested in computer science and technology. We are a community of students who are passionate about coding and technology. We hold regular meetings and events to share our knowledge and experiences.",
+        "author": "Jane Smith",
+        "date": "2021-02-15"
+    },
+    {
+        "id": 3,
+        "title": "React Basics",
+        "content": "React is a popular JavaScript library for building user interfaces. It is used for building reusable UI components, which can be easily composed together to create complex and dynamic user interfaces. In this post, we will explore the basics of React and how it can be used to build web applications.",
+        "author": "Jane Smith",
+        "date": "2021-02-15"
+    },
+    {
+        "id": 4,
+        "title": "Advanced CSS",
+        "content": "CSS is a powerful language for styling web pages. It can be used to create complex and dynamic layouts, as well as to add visual effects to web pages. In this post, we will explore some advanced topics in CSS, including selectors, properties, and values.",
+        "author": "Alice Johnson",
+        "date": "2021-03-10"
+    },
+    {
+        "id": 5,
+        "title": "JavaScript Tips",
+        "content": "JavaScript is a powerful language for building web applications. It can be used to create dynamic and interactive web pages, as well as to add functionality to web pages. In this post, we will explore some tips and tricks for mastering JavaScript.",
+        "author": "Bob Brown",
+        "date": "2021-04-05"
+    }
+]
+
