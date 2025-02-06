@@ -21,15 +21,15 @@ const Header = () => {
 
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
-                        <a className="navbar-item">
+                        <a className="navbar-item" href="/">
                             Home
                         </a>
 
-                        <a className="navbar-item">
+                        <a className="navbar-item" href="/post/create">
                             New Post
                         </a>
 
-                        <a className="navbar-item">
+                        <a className="navbar-item" href="/profile">
                             Profile
                         </a>
                     </div>
