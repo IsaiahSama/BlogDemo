@@ -13,9 +13,7 @@ const HomePage = ({posts}) => {
                 </div>
             </div>
             <div className="posts py-2">
-                <PostSnippet />
-                <PostSnippet />
-                <PostSnippet />
+                {posts.map(post => <PostSnippet key={post.id} post={post} />)}
 
             </div>
         </>
