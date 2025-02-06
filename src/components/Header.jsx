@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 const Header = () => {
     return (
         <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -8,28 +10,27 @@ const Header = () => {
                     <img src="/cssLogo.png" alt="CSS Logo" style={{ width: "50px", height: "50px" }} />
                     <p>CSS Blog</p>
                 </a>
-
-                <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
             </div>
 
-            <div id="navbarBasicExample" className="navbar-menu">
+            <div id="navbarBasicExample" className="navbar-menu is-active">
                 <div className="navbar-start">
-                    <a className="navbar-item" href="/">
+                    <Link className="navbar-item" to={{
+                        pathname: "/"
+                    }}>
                         Home
-                    </a>
+                    </Link>
 
-                    <a className="navbar-item" href="/post/create">
+                    <Link className="navbar-item" to={{
+                        pathname: "/post/create"
+                    }}>
                         New Post
-                    </a>
+                    </Link>
 
-                    <a className="navbar-item" href="/profile">
+                    <Link className="navbar-item" to={{
+                        pathname: "/profile"
+                    }}>
                         Profile
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="navbar-end">
