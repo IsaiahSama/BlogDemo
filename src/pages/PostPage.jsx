@@ -9,13 +9,13 @@ const PostPage = ( {posts} ) => {
     if (!post) {
         return <p>Post not found</p>;
     }
-    
+
     return (
         <>
             <h1 className="title">{post.title}</h1>
             <p className="subtitle is-6">Written by {post.author}</p>
             <p>
-                Date: <time datetime={post.date}>{post.date}</time>
+                Date: <time dateTime={post.date}>{post.date}</time>
             </p>
             <div className="content">
                 {post.content}

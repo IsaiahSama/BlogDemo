@@ -5,23 +5,23 @@ const LoginPage = () => {
         <form>
             <h1>Welcome back!</h1>
 
-            <div class="field">
-                <label class="label">Email <span class="has-text-danger">*</span></label>
-                <div class="control">
-                    <input class="input" type="email" name="email" id="email" placeholder="Email" required />
+            <div className="field">
+                <label className="label">Email <span className="has-text-danger">*</span></label>
+                <div className="control">
+                    <input className="input" type="email" name="email" id="email" placeholder="Email" required />
                 </div>
             </div>
 
-            <div class="field">
-                <label class="label">Password <span class="has-text-danger">*</span></label>
-                <div class="control">
-                    <input class="input" type="password" name="password" id="password" placeholder="Password" required />
+            <div className="field">
+                <label className="label">Password <span className="has-text-danger">*</span></label>
+                <div className="control">
+                    <input className="input" type="password" name="password" id="password" placeholder="Password" required />
                 </div>
             </div>
 
-            <div class="field is-grouped">
-                <div class="control">
-                    <button class="button is-link">Login</button>
+            <div className="field is-grouped">
+                <div className="control">
+                    <button className="button is-link">Login</button>
                 </div>
             </div>
         </form>

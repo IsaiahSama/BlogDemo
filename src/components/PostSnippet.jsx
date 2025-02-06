@@ -6,19 +6,19 @@ const PostSnippet = ( {post} ) => {
     const navigate = useNavigate();
 
     return (
-        <div class="card" onClick={() => navigate("/post/" + post.id)}>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-content">
-                            <p class="title is-4">{post.title}</p>
-                            <p class="subtitle is-6">Written by {post.author}</p>
+        <div className="card" onClick={() => navigate("/post/" + post.id)}>
+                <div className="card-content">
+                    <div className="media">
+                        <div className="media-content">
+                            <p className="title is-4">{post.title}</p>
+                            <p className="subtitle is-6">Written by {post.author}</p>
                             <p>
-                                Date: <time datetime={post.date}>{post.date}</time>
+                                Date: <time dateTime={post.date}>{post.date}</time>
                             </p>
                         </div>
                     </div>
 
-                    <div class="content snippet">
+                    <div className="content snippet">
                         {post.content}
                     </div>
                 </div>

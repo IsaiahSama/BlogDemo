@@ -4,23 +4,23 @@ const NewPostPage = () => {
     return (
         <form>
             <h1>Create new post</h1>
-            <div class="field">
-                <label class="label">Post Title</label>
-                <div class="control">
-                    <input class="input" type="text" placeholder="Title for Post" />
+            <div className="field">
+                <label className="label">Post Title</label>
+                <div className="control">
+                    <input className="input" type="text" placeholder="Title for Post" />
                 </div>
             </div>
 
-            <div class="field">
-                <label class="label">Post Content</label>
-                <div class="control">
-                    <textarea class="textarea" placeholder="Type your content here" rows="15" />
+            <div className="field">
+                <label className="label">Post Content</label>
+                <div className="control">
+                    <textarea className="textarea" placeholder="Type your content here" rows="15" />
                 </div>
             </div>
 
-            <div class="field is-grouped">
-                <div class="control">
-                    <button class="button is-link">Submit</button>
+            <div className="field is-grouped">
+                <div className="control">
+                    <button className="button is-link">Submit</button>
                 </div>
             </div>
         </form>
