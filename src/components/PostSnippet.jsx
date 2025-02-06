@@ -6,7 +6,7 @@ const PostSnippet = ( {post} ) => {
     const navigate = useNavigate();
 
     return (
-        <div className="card" onClick={() => navigate("/post/" + post.id)}>
+        <div className="card clickable" onClick={() => navigate("/post/" + post.id)}>
                 <div className="card-content">
                     <div className="media">
                         <div className="media-content">
