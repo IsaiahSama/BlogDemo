@@ -6,14 +6,15 @@ const PostPage = ( {posts} ) => {
     const { id } = useParams();
     const post = posts.find(post => post.id === parseInt(id));
 
+    console.log(post);
     return (
         <>
-            <h1 class="title">{post.title}</h1>
-            <p class="subtitle is-6">Written by {post.author}</p>
+            <h1 className="title">{post.title}</h1>
+            <p className="subtitle is-6">Written by {post.author}</p>
             <p>
                 Date: <time datetime={post.date}>{post.date}</time>
             </p>
-            <div class="content">
+            <div className="content">
                 {post.content}
             </div>
 
